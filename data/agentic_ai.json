@@ -1,0 +1,14 @@
+{
+"description": "Agentic AI = AI with agents that can act on their own & take actions instead of just answer.\n\n**Example** - You say: Plan a weekend trip.\n\n **A normal AI** → gives ideas.\n\n **An agentic AI** → \n - Searches locations \n - Finds hotels \n - Checks prices\n - Builds itinerary\n - Presents everything systematically \n\n Agentic follow a loop: **Observe → Think → Plan → Act → Check → Improve**",
+"concepts": {
+    "Goal-Oriented Behavior": "An agent receives a goal and determines the steps needed to achieve it. \n\n **Example:** - Goal: Prepare a quarterly sales report. \n\n ➡️ Agent actions: \n - Collect sales data \n - Analyze trends \n - Create charts \n - Draft summary \n - Share report",
+    "Perception": "Ability to gather information from different sources. \n\n **Inputs can include:** \n - Documents \n - Emails \n - Databases \n - APIs \n - User interactions \n - Sensor data (IoT)",
+    "Reasoning": "The agent evaluates available information and decides what to do next. \n\n **Types of reasoning:** \n - Logical reasoning \n - Rule-based reasoning \n - LLM-based reasoning \n - Probabilistic reasoning \n\n **Example:** If inventory is low and demand is increasing, the agent recommends replenishment.",
+    "Planning": "Breaking a complex objective into smaller tasks. \n\n **Example:** - Goal: Launch a marketing campaign. \n\n ➡️ Plan: \n - Research audience \n - Create content \n - Schedule posts \n - Monitor engagement \n - Optimize campaign",
+   "Memory": "Agents maintain context across interactions. \n\n **Short-Term Memory** \n - Current conversation/task context. \n\n **Long-Term Memory** \n - Historical interactions and experiences. \n\n **Example:** A support agent remembers previous customer issues.",
+    "Tool Use": "Modern AI agents can use external tools. \n\n **Examples:** \n - Web Search \n - CRM systems \n - Databases \n - PowerBI \n - Microsoft Graph \n - APIs \n - Email systems \n\n **Example:** An HR agent accesses employee data from Workday and sends approval requests via Outlook.",
+    "Decision Making": "Selecting the best action among alternatives. \n\n **Techniques:** \n - Rule-based decisions \n - Reinforcement learning \n - Cost-benefit analysis \n - Multi-step reasoning",
+    "Action Execution": "After deciding, the agent performs tasks. \n\n **Example:** \n - Send email \n - Create ticket \n - Generate report \n - Update records \n - Schedule meetings",
+    "Feedback Loop": "Agents evaluate results and adjust behavior. \n\n **Cycle:** \n\n Observe \n\n ↓ \n\n Reason \n\n ↓ \n\n Plan \n\n ↓ \n\n Act \n\n ↓ \n\n Evaluate \n\n  ↓ \n\n Improve"
+    }
+}

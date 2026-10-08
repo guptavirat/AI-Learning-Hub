@@ -1,0 +1,9 @@
+{
+  "description": "Deep Learning is a subset of Machine Learning that uses Artificial Neural Networks with many layers to learn complex patterns from data. \n\n Why is it called 'Deep' Learning? \n\n Because it contains multiple hidden layers. \n\n **Input Layer ➡️ Hidden Layers ➡️ Output Layer** \n\n These layers gradually learn: \n\n ➡️ edges → shapes → objects → meaning (in images) \n\n ➡️ characters → words → phrases → context (in text)",
+  "concepts": {
+    "Neural Networks": "Computational models inspired by the human brain. Like thousands of tiny “thinking dots” connected together. \n\n Neural Network is layers of neurons applying matrix multiplications + nonlinear activation.",
+    "ANN (Artificial Neural Network)": "ANN is the basic neural network inspired by the human brain. \n\n Example :- Predict Employee Attrition \n\n - Experience = 2 years \n - Salary = 6 LPA \n - Age = 25 \n\n **ANN learns:** Experience, Age, Salary -> Neural Network -> Will leave company? \n\n **Output:** 85% probability of leaving",
+    "CNN (Convolutional Neural Network)": "Convolutional Neural Networks are used for image-related tasks. \n\n **Why CNN?** \n\n Because ANN struggles with images. \n\n Example :- Mobile unlock by face detection \n\n - Input = Picture \n\n **CNN examines:** Edges -> Shapes -> Patterns -> Object \n\n Processing : Face Image -> CNN -> Match Found \n\n **Output:** Mobile Screen unlocked",
+    "RNN (Recurrent Neural Network)": "Recurrent Neural Networks are useful for sequential data. \n\n **Why RNN?** \n\n ANN and CNN don't remember previous information. \n\n Example :- I live in _____ \n\n To predict the next word, the model needs context."
+  }
+}
