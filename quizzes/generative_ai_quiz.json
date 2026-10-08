@@ -1,0 +1,914 @@
+{
+  "quiz": [
+    {
+      "question": "What is the primary goal of Generative AI?",
+      "options": [
+        "Store Data",
+        "Create New Content",
+        "Manage Networks",
+        "Compress Files"
+      ],
+      "answer": "Create New Content"
+    },
+    {
+      "question": "What does LLM stand for?",
+      "options": [
+        "Large Language Model",
+        "Linear Language Machine",
+        "Logical Learning Model",
+        "Language Logic Matrix"
+      ],
+      "answer": "Large Language Model"
+    },
+    {
+      "question": "Which architecture powers most modern LLMs?",
+      "options": [
+        "Transformer",
+        "CNN",
+        "RNN",
+        "GAN"
+      ],
+      "answer": "Transformer"
+    },
+    {
+      "question": "What is a prompt?",
+      "options": [
+        "Model output",
+        "Instruction given to a model",
+        "Training dataset",
+        "GPU setting"
+      ],
+      "answer": "Instruction given to a model"
+    },
+    {
+      "question": "Which model is known for text generation?",
+      "options": [
+        "GPT",
+        "ResNet",
+        "VGG",
+        "YOLO"
+      ],
+      "answer": "GPT"
+    },
+    {
+      "question": "DALL-E is used for?",
+      "options": [
+        "Image generation",
+        "Databases",
+        "Audio compression",
+        "Networking"
+      ],
+      "answer": "Image generation"
+    },
+    {
+      "question": "What is tokenization?",
+      "options": [
+        "Breaking text into units",
+        "Encrypting data",
+        "Compressing files",
+        "Scaling models"
+      ],
+      "answer": "Breaking text into units"
+    },
+    {
+      "question": "What is a hallucination in AI?",
+      "options": [
+        "False generated information",
+        "Image enhancement",
+        "Model compression",
+        "Token limit"
+      ],
+      "answer": "False generated information"
+    },
+    {
+      "question": "What is multimodal AI?",
+      "options": [
+        "Uses multiple data types",
+        "Uses one dataset",
+        "Only text processing",
+        "Only image editing"
+      ],
+      "answer": "Uses multiple data types"
+    },
+    {
+      "question": "What is prompt engineering?",
+      "options": [
+        "Designing effective prompts",
+        "Building GPUs",
+        "Writing code only",
+        "Cleaning databases"
+      ],
+      "answer": "Designing effective prompts"
+    },
+    {
+      "question": "What is a context window?",
+      "options": [
+        "Amount of information model can consider",
+        "Browser window",
+        "Training server",
+        "Dataset folder"
+      ],
+      "answer": "Amount of information model can consider"
+    },
+    {
+      "question": "Embeddings represent?",
+      "options": [
+        "Semantic meaning numerically",
+        "Images only",
+        "Databases",
+        "Training hardware"
+      ],
+      "answer": "Semantic meaning numerically"
+    },
+    {
+      "question": "What does RAG stand for?",
+      "options": [
+        "Retrieval-Augmented Generation",
+        "Random AI Generation",
+        "Recursive Agent Graph",
+        "Response Analysis Grid"
+      ],
+      "answer": "Retrieval-Augmented Generation"
+    },
+    {
+      "question": "Why use RAG?",
+      "options": [
+        "Bring external knowledge",
+        "Train models faster",
+        "Reduce storage",
+        "Create GPUs"
+      ],
+      "answer": "Bring external knowledge"
+    },
+    {
+      "question": "What is a vector database used for?",
+      "options": [
+        "Similarity search",
+        "Image editing",
+        "Model hosting",
+        "Networking"
+      ],
+      "answer": "Similarity search"
+    },
+    {
+      "question": "Cosine similarity is used with?",
+      "options": [
+        "Embeddings",
+        "Passwords",
+        "Images only",
+        "GPUs"
+      ],
+      "answer": "Embeddings"
+    },
+    {
+      "question": "Few-shot prompting means?",
+      "options": [
+        "Providing examples in prompt",
+        "Using few parameters",
+        "Training briefly",
+        "Reducing tokens"
+      ],
+      "answer": "Providing examples in prompt"
+    },
+    {
+      "question": "Zero-shot prompting means?",
+      "options": [
+        "No examples provided",
+        "No training",
+        "No output",
+        "No tokens"
+      ],
+      "answer": "No examples provided"
+    },
+    {
+      "question": "Chain-of-thought prompting helps with?",
+      "options": [
+        "Reasoning",
+        "Storage",
+        "Networking",
+        "Compression"
+      ],
+      "answer": "Reasoning"
+    },
+    {
+      "question": "Temperature controls?",
+      "options": [
+        "Randomness of output",
+        "CPU heat",
+        "Dataset size",
+        "Latency"
+      ],
+      "answer": "Randomness of output"
+    },
+    {
+      "question": "Higher temperature generally gives?",
+      "options": [
+        "More creative outputs",
+        "More deterministic outputs",
+        "Smaller outputs",
+        "Faster training"
+      ],
+      "answer": "More creative outputs"
+    },
+    {
+      "question": "Top-p sampling is?",
+      "options": [
+        "Decoding technique",
+        "Optimizer",
+        "Database index",
+        "Security control"
+      ],
+      "answer": "Decoding technique"
+    },
+    {
+      "question": "Inference means?",
+      "options": [
+        "Using trained model to generate output",
+        "Training from scratch",
+        "Cleaning data",
+        "Building hardware"
+      ],
+      "answer": "Using trained model to generate output"
+    },
+    {
+      "question": "What is fine-tuning?",
+      "options": [
+        "Adapting pretrained model to new task",
+        "Deleting parameters",
+        "Compressing model",
+        "Changing prompts"
+      ],
+      "answer": "Adapting pretrained model to new task"
+    },
+    {
+      "question": "Supervised fine-tuning uses?",
+      "options": [
+        "Labeled data",
+        "Unlabeled data",
+        "No data",
+        "Hardware data"
+      ],
+      "answer": "Labeled data"
+    },
+    {
+      "question": "RLHF stands for?",
+      "options": [
+        "Reinforcement Learning from Human Feedback",
+        "Random Learning Human Feedback",
+        "Rule Learning Hybrid Framework",
+        "Reasoning Loop Human Function"
+      ],
+      "answer": "Reinforcement Learning from Human Feedback"
+    },
+    {
+      "question": "Attention mechanism helps models?",
+      "options": [
+        "Focus on relevant information",
+        "Increase storage",
+        "Reduce internet usage",
+        "Encrypt outputs"
+      ],
+      "answer": "Focus on relevant information"
+    },
+    {
+      "question": "A model parameter is?",
+      "options": [
+        "Learned weight",
+        "Prompt",
+        "Document",
+        "GPU"
+      ],
+      "answer": "Learned weight"
+    },
+    {
+      "question": "What is model training?",
+      "options": [
+        "Learning patterns from data",
+        "Generating output",
+        "Searching web",
+        "Compressing files"
+      ],
+      "answer": "Learning patterns from data"
+    },
+    {
+      "question": "What is overfitting?",
+      "options": [
+        "Memorizing training data too closely",
+        "Too little learning",
+        "Model deployment",
+        "Image scaling"
+      ],
+      "answer": "Memorizing training data too closely"
+    },
+    {
+      "question": "What is underfitting?",
+      "options": [
+        "Model fails to learn patterns",
+        "Too much learning",
+        "Compression issue",
+        "Prompt attack"
+      ],
+      "answer": "Model fails to learn patterns"
+    },
+    {
+      "question": "What is synthetic data?",
+      "options": [
+        "Artificially generated data",
+        "Encrypted data",
+        "Deleted data",
+        "Raw logs"
+      ],
+      "answer": "Artificially generated data"
+    },
+    {
+      "question": "What is latency?",
+      "options": [
+        "Response delay",
+        "Accuracy score",
+        "Model size",
+        "Token count"
+      ],
+      "answer": "Response delay"
+    },
+    {
+      "question": "What is quantization?",
+      "options": [
+        "Reducing numerical precision for efficiency",
+        "Adding data",
+        "Prompt tuning",
+        "Scaling GPUs"
+      ],
+      "answer": "Reducing numerical precision for efficiency"
+    },
+    {
+      "question": "Model distillation aims to?",
+      "options": [
+        "Create smaller model from larger one",
+        "Increase dataset size",
+        "Generate images",
+        "Reduce prompts"
+      ],
+      "answer": "Create smaller model from larger one"
+    },
+    {
+      "question": "Open-source LLM family?",
+      "options": [
+        "Llama",
+        "Oracle",
+        "Excel",
+        "Linux"
+      ],
+      "answer": "Llama"
+    },
+    {
+      "question": "What is an AI agent?",
+      "options": [
+        "System that plans and acts",
+        "Database",
+        "GPU",
+        "API gateway"
+      ],
+      "answer": "System that plans and acts"
+    },
+    {
+      "question": "Function calling allows LLMs to?",
+      "options": [
+        "Use tools/APIs",
+        "Train themselves",
+        "Compress files",
+        "Create hardware"
+      ],
+      "answer": "Use tools/APIs"
+    },
+    {
+      "question": "Prompt injection is?",
+      "options": [
+        "Attack manipulating instructions",
+        "Training method",
+        "Embedding type",
+        "Optimization technique"
+      ],
+      "answer": "Attack manipulating instructions"
+    },
+    {
+      "question": "Grounding helps?",
+      "options": [
+        "Reduce hallucinations",
+        "Increase latency",
+        "Reduce storage",
+        "Create images"
+      ],
+      "answer": "Reduce hallucinations"
+    },
+    {
+      "question": "Which model family generates images?",
+      "options": [
+        "Diffusion Models",
+        "Decision Trees",
+        "KNN",
+        "Naive Bayes"
+      ],
+      "answer": "Diffusion Models"
+    },
+    {
+      "question": "GAN stands for?",
+      "options": [
+        "Generative Adversarial Network",
+        "General AI Network",
+        "Graph Attention Node",
+        "Generated Analysis Network"
+      ],
+      "answer": "Generative Adversarial Network"
+    },
+    {
+      "question": "Diffusion models generate content by?",
+      "options": [
+        "Denoising process",
+        "Sorting records",
+        "Search indexing",
+        "Token deletion"
+      ],
+      "answer": "Denoising process"
+    },
+    {
+      "question": "Stable Diffusion is a?",
+      "options": [
+        "Text-to-image model",
+        "Database",
+        "Web browser",
+        "Vector DB"
+      ],
+      "answer": "Text-to-image model"
+    },
+    {
+      "question": "CLIP is commonly used for?",
+      "options": [
+        "Text-image understanding",
+        "Database backup",
+        "Speech compression",
+        "Networking"
+      ],
+      "answer": "Text-image understanding"
+    },
+    {
+      "question": "What is multimodal prompting?",
+      "options": [
+        "Combining text/images/audio inputs",
+        "Using only text",
+        "Only code generation",
+        "Only databases"
+      ],
+      "answer": "Combining text/images/audio inputs"
+    },
+    {
+      "question": "Speech-to-text model converts?",
+      "options": [
+        "Audio into text",
+        "Text into image",
+        "Image into text",
+        "Code into speech"
+      ],
+      "answer": "Audio into text"
+    },
+    {
+      "question": "Text-to-speech generates?",
+      "options": [
+        "Audio from text",
+        "Images from text",
+        "Tables from text",
+        "Vectors from text"
+      ],
+      "answer": "Audio from text"
+    },
+    {
+      "question": "What is an embedding dimension?",
+      "options": [
+        "Length of vector representation",
+        "Dataset size",
+        "Prompt length",
+        "CPU cores"
+      ],
+      "answer": "Length of vector representation"
+    },
+    {
+      "question": "Vector search finds?",
+      "options": [
+        "Semantically similar content",
+        "Random tokens",
+        "GPUs",
+        "Network paths"
+      ],
+      "answer": "Semantically similar content"
+    },
+    {
+      "question": "What is chunking in RAG?",
+      "options": [
+        "Splitting documents into smaller pieces",
+        "Deleting files",
+        "Model compression",
+        "Encryption"
+      ],
+      "answer": "Splitting documents into smaller pieces"
+    },
+    {
+      "question": "Metadata in vector DB helps?",
+      "options": [
+        "Filtering results",
+        "Increasing tokens",
+        "Training models",
+        "Generating images"
+      ],
+      "answer": "Filtering results"
+    },
+    {
+      "question": "Hybrid search combines?",
+      "options": [
+        "Keyword and vector search",
+        "Audio and video",
+        "Training and inference",
+        "CPU and GPU"
+      ],
+      "answer": "Keyword and vector search"
+    },
+    {
+      "question": "Prompt templates help with?",
+      "options": [
+        "Consistency",
+        "Latency only",
+        "Storage only",
+        "Networking"
+      ],
+      "answer": "Consistency"
+    },
+    {
+      "question": "System prompts define?",
+      "options": [
+        "Model behavior and rules",
+        "Database schema",
+        "GPU setup",
+        "Training loss"
+      ],
+      "answer": "Model behavior and rules"
+    },
+    {
+      "question": "A guardrail is used for?",
+      "options": [
+        "Safety and control",
+        "Data storage",
+        "Compression",
+        "Hosting"
+      ],
+      "answer": "Safety and control"
+    },
+    {
+      "question": "Red teaming means?",
+      "options": [
+        "Testing AI for weaknesses",
+        "Training faster",
+        "Scaling databases",
+        "Image rendering"
+      ],
+      "answer": "Testing AI for weaknesses"
+    },
+    {
+      "question": "Jailbreak prompt attempts to?",
+      "options": [
+        "Bypass safety rules",
+        "Improve embeddings",
+        "Compress models",
+        "Increase latency"
+      ],
+      "answer": "Bypass safety rules"
+    },
+    {
+      "question": "Bias in AI refers to?",
+      "options": [
+        "Unfair systematic behavior",
+        "Storage issue",
+        "Networking error",
+        "Hardware failure"
+      ],
+      "answer": "Unfair systematic behavior"
+    },
+    {
+      "question": "Responsible AI focuses on?",
+      "options": [
+        "Fairness safety transparency",
+        "Only speed",
+        "Only accuracy",
+        "Only cost"
+      ],
+      "answer": "Fairness safety transparency"
+    },
+    {
+      "question": "What is explainability?",
+      "options": [
+        "Understanding model decisions",
+        "Increasing model size",
+        "Compressing prompts",
+        "Vector indexing"
+      ],
+      "answer": "Understanding model decisions"
+    },
+    {
+      "question": "BLEU is used to evaluate?",
+      "options": [
+        "Generated text quality",
+        "GPU usage",
+        "Storage size",
+        "Latency"
+      ],
+      "answer": "Generated text quality"
+    },
+    {
+      "question": "ROUGE is commonly used for?",
+      "options": [
+        "Summarization evaluation",
+        "Image generation",
+        "Speech synthesis",
+        "Security testing"
+      ],
+      "answer": "Summarization evaluation"
+    },
+    {
+      "question": "Perplexity measures?",
+      "options": [
+        "Language model prediction quality",
+        "Network speed",
+        "Image quality",
+        "Storage usage"
+      ],
+      "answer": "Language model prediction quality"
+    },
+    {
+      "question": "Benchmarking helps?",
+      "options": [
+        "Compare model performance",
+        "Train GPUs",
+        "Store vectors",
+        "Create prompts"
+      ],
+      "answer": "Compare model performance"
+    },
+    {
+      "question": "What is token limit?",
+      "options": [
+        "Maximum tokens processed",
+        "GPU memory",
+        "Internet limit",
+        "Database size"
+      ],
+      "answer": "Maximum tokens processed"
+    },
+    {
+      "question": "Context truncation occurs when?",
+      "options": [
+        "Input exceeds limit",
+        "Model trains",
+        "Image loads",
+        "Vector stored"
+      ],
+      "answer": "Input exceeds limit"
+    },
+    {
+      "question": "Knowledge cutoff means?",
+      "options": [
+        "Model knowledge ends at a date",
+        "No storage",
+        "No prompts",
+        "No reasoning"
+      ],
+      "answer": "Model knowledge ends at a date"
+    },
+    {
+      "question": "What is continual learning?",
+      "options": [
+        "Updating models with new information over time",
+        "Deleting weights",
+        "Reducing parameters",
+        "Compression"
+      ],
+      "answer": "Updating models with new information over time"
+    },
+    {
+      "question": "Parameter-efficient tuning example?",
+      "options": [
+        "LoRA",
+        "HTML",
+        "SQL",
+        "TCP"
+      ],
+      "answer": "LoRA"
+    },
+    {
+      "question": "LoRA stands for?",
+      "options": [
+        "Low-Rank Adaptation",
+        "Local Retrieval Algorithm",
+        "Layered Reasoning Agent",
+        "Long Range Attention"
+      ],
+      "answer": "Low-Rank Adaptation"
+    },
+    {
+      "question": "What is model alignment?",
+      "options": [
+        "Matching outputs with human values",
+        "Increasing parameters",
+        "Reducing latency",
+        "Adding storage"
+      ],
+      "answer": "Matching outputs with human values"
+    },
+    {
+      "question": "Agent memory enables?",
+      "options": [
+        "Retention of previous information",
+        "GPU acceleration",
+        "Compression",
+        "Encryption"
+      ],
+      "answer": "Retention of previous information"
+    },
+    {
+      "question": "Planning in agents refers to?",
+      "options": [
+        "Sequencing actions toward goals",
+        "Adding vectors",
+        "Managing disks",
+        "Tokenizing data"
+      ],
+      "answer": "Sequencing actions toward goals"
+    },
+    {
+      "question": "Tool use in agents enables?",
+      "options": [
+        "External actions and retrieval",
+        "Model shrinking",
+        "Image compression",
+        "Token deletion"
+      ],
+      "answer": "External actions and retrieval"
+    },
+    {
+      "question": "Multi-agent systems involve?",
+      "options": [
+        "Multiple collaborating agents",
+        "Multiple databases",
+        "Multiple GPUs only",
+        "Multiple prompts"
+      ],
+      "answer": "Multiple collaborating agents"
+    },
+    {
+      "question": "Autonomous agents can?",
+      "options": [
+        "Act with limited supervision",
+        "Replace all humans",
+        "Build hardware",
+        "Remove datasets"
+      ],
+      "answer": "Act with limited supervision"
+    },
+    {
+      "question": "MCP commonly refers to?",
+      "options": [
+        "Model Context Protocol",
+        "Main Control Program",
+        "Managed Cloud Platform",
+        "Multi Compute Pipeline"
+      ],
+      "answer": "Model Context Protocol"
+    },
+    {
+      "question": "What is grounding data?",
+      "options": [
+        "Trusted source information",
+        "Random text",
+        "Unused tokens",
+        "Compressed files"
+      ],
+      "answer": "Trusted source information"
+    },
+    {
+      "question": "Data governance ensures?",
+      "options": [
+        "Proper data management and compliance",
+        "Faster GPUs",
+        "Image rendering",
+        "Prompt length"
+      ],
+      "answer": "Proper data management and compliance"
+    },
+    {
+      "question": "PII stands for?",
+      "options": [
+        "Personally Identifiable Information",
+        "Public Internet Interface",
+        "Primary Integration Index",
+        "Personal Insight Indicator"
+      ],
+      "answer": "Personally Identifiable Information"
+    },
+    {
+      "question": "Why mask sensitive data?",
+      "options": [
+        "Protect privacy",
+        "Improve image quality",
+        "Increase latency",
+        "Train faster"
+      ],
+      "answer": "Protect privacy"
+    },
+    {
+      "question": "What is vector indexing?",
+      "options": [
+        "Optimizing similarity search",
+        "Model training",
+        "Speech synthesis",
+        "Image editing"
+      ],
+      "answer": "Optimizing similarity search"
+    },
+    {
+      "question": "Knowledge graphs can help?",
+      "options": [
+        "Improve reasoning and retrieval",
+        "Reduce GPU temperature",
+        "Compress audio",
+        "Manage networks"
+      ],
+      "answer": "Improve reasoning and retrieval"
+    },
+    {
+      "question": "What is retrieval precision?",
+      "options": [
+        "Relevance of retrieved results",
+        "Training speed",
+        "Token count",
+        "Disk usage"
+      ],
+      "answer": "Relevance of retrieved results"
+    },
+    {
+      "question": "Recall measures?",
+      "options": [
+        "How many relevant items are retrieved",
+        "Latency",
+        "Model size",
+        "Bandwidth"
+      ],
+      "answer": "How many relevant items are retrieved"
+    },
+    {
+      "question": "Agent orchestration manages?",
+      "options": [
+        "Coordination of tools and workflows",
+        "Hardware replacement",
+        "Image generation only",
+        "Database deletion"
+      ],
+      "answer": "Coordination of tools and workflows"
+    },
+    {
+      "question": "What is a foundation model?",
+      "options": [
+        "Large pretrained general-purpose model",
+        "Database engine",
+        "Programming language",
+        "Vector index"
+      ],
+      "answer": "Large pretrained general-purpose model"
+    },
+    {
+      "question": "What is transfer learning?",
+      "options": [
+        "Using learned knowledge for new tasks",
+        "Deleting training data",
+        "Compression",
+        "Indexing"
+      ],
+      "answer": "Using learned knowledge for new tasks"
+    },
+    {
+      "question": "Mixture of Experts models use?",
+      "options": [
+        "Specialized subnetworks",
+        "Only one neuron",
+        "Databases",
+        "Vector stores"
+      ],
+      "answer": "Specialized subnetworks"
+    },
+    {
+      "question": "What is scaling law research about?",
+      "options": [
+        "Relationship between model size data and performance",
+        "Network scaling",
+        "Storage expansion",
+        "API management"
+      ],
+      "answer": "Relationship between model size data and performance"
+    }
+  ]
+}

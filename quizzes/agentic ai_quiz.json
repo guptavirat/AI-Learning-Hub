@@ -1,0 +1,912 @@
+{
+  "quiz": [
+    {
+      "question": "What is Agentic AI?",
+      "options": [
+        "AI that can plan, reason, and take actions toward goals",
+        "AI used only for image generation",
+        "AI that stores data",
+        "AI that manages hardware"
+      ],
+      "answer": "AI that can plan, reason, and take actions toward goals"
+    },
+    {
+      "question": "What differentiates an AI agent from a traditional chatbot?",
+      "options": [
+        "Ability to take actions and use tools",
+        "Ability to generate text",
+        "Ability to answer questions",
+        "Ability to process tokens"
+      ],
+      "answer": "Ability to take actions and use tools"
+    },
+    {
+      "question": "What is the primary goal of an AI agent?",
+      "options": [
+        "Achieve objectives autonomously",
+        "Store information",
+        "Train models",
+        "Compress data"
+      ],
+      "answer": "Achieve objectives autonomously"
+    },
+    {
+      "question": "What is a goal in Agentic AI?",
+      "options": [
+        "Desired outcome the agent tries to achieve",
+        "A training dataset",
+        "A neural network layer",
+        "A vector database"
+      ],
+      "answer": "Desired outcome the agent tries to achieve"
+    },
+    {
+      "question": "What is planning in Agentic AI?",
+      "options": [
+        "Creating a sequence of actions",
+        "Training an LLM",
+        "Building embeddings",
+        "Creating APIs"
+      ],
+      "answer": "Creating a sequence of actions"
+    },
+    {
+      "question": "What is reasoning in Agentic AI?",
+      "options": [
+        "Analyzing information to make decisions",
+        "Compressing data",
+        "Scaling vectors",
+        "Storing prompts"
+      ],
+      "answer": "Analyzing information to make decisions"
+    },
+    {
+      "question": "What is an autonomous agent?",
+      "options": [
+        "Agent that acts with minimal supervision",
+        "Agent without memory",
+        "Agent without goals",
+        "Agent without tools"
+      ],
+      "answer": "Agent that acts with minimal supervision"
+    },
+    {
+      "question": "What are tools in Agentic AI?",
+      "options": [
+        "External capabilities available to an agent",
+        "Training datasets",
+        "Model weights",
+        "Context windows"
+      ],
+      "answer": "External capabilities available to an agent"
+    },
+    {
+      "question": "Why do AI agents use tools?",
+      "options": [
+        "To perform actions beyond text generation",
+        "To reduce memory",
+        "To reduce parameters",
+        "To create embeddings"
+      ],
+      "answer": "To perform actions beyond text generation"
+    },
+    {
+      "question": "What is tool calling?",
+      "options": [
+        "Invoking external functions or APIs",
+        "Calling a user",
+        "Calling a database administrator",
+        "Calling another GPU"
+      ],
+      "answer": "Invoking external functions or APIs"
+    },
+
+    {
+      "question": "What is agent memory?",
+      "options": [
+        "Stored information used across tasks",
+        "GPU memory only",
+        "RAM on a computer",
+        "Database backup"
+      ],
+      "answer": "Stored information used across tasks"
+    },
+    {
+      "question": "Why is memory important for agents?",
+      "options": [
+        "Maintains continuity and context",
+        "Reduces training data",
+        "Increases parameters",
+        "Removes prompts"
+      ],
+      "answer": "Maintains continuity and context"
+    },
+    {
+      "question": "What is short-term memory?",
+      "options": [
+        "Context retained during current interactions",
+        "Knowledge stored forever",
+        "Model weights",
+        "Vector embeddings only"
+      ],
+      "answer": "Context retained during current interactions"
+    },
+    {
+      "question": "What is long-term memory?",
+      "options": [
+        "Information stored across sessions",
+        "Current conversation only",
+        "Temporary tokens",
+        "Context window size"
+      ],
+      "answer": "Information stored across sessions"
+    },
+    {
+      "question": "What is a workflow agent?",
+      "options": [
+        "Agent that follows predefined process steps",
+        "Agent without goals",
+        "Agent without memory",
+        "Agent used only for gaming"
+      ],
+      "answer": "Agent that follows predefined process steps"
+    },
+    {
+      "question": "What is a reactive agent?",
+      "options": [
+        "Responds directly to current input",
+        "Uses only memory",
+        "Builds neural networks",
+        "Stores databases"
+      ],
+      "answer": "Responds directly to current input"
+    },
+    {
+      "question": "What is a deliberative agent?",
+      "options": [
+        "Agent that plans before acting",
+        "Agent without reasoning",
+        "Agent without memory",
+        "Agent without tools"
+      ],
+      "answer": "Agent that plans before acting"
+    },
+    {
+      "question": "What does environment mean in Agentic AI?",
+      "options": [
+        "The world in which the agent operates",
+        "Database schema",
+        "Prompt template",
+        "Training framework"
+      ],
+      "answer": "The world in which the agent operates"
+    },
+    {
+      "question": "What is an observation?",
+      "options": [
+        "Information perceived by an agent",
+        "Final output",
+        "Training sample",
+        "Embedding vector"
+      ],
+      "answer": "Information perceived by an agent"
+    },
+    {
+      "question": "What is an action?",
+      "options": [
+        "Operation executed by an agent",
+        "Training metric",
+        "Dataset split",
+        "Hyperparameter"
+      ],
+      "answer": "Operation executed by an agent"
+    },
+
+    {
+      "question": "What is an agent loop?",
+      "options": [
+        "Observe, reason, act, repeat cycle",
+        "Training cycle",
+        "Embedding process",
+        "Data pipeline"
+      ],
+      "answer": "Observe, reason, act, repeat cycle"
+    },
+    {
+      "question": "What is ReAct?",
+      "options": [
+        "Reasoning and Acting framework",
+        "Reinforcement Learning method",
+        "Attention mechanism",
+        "Memory storage system"
+      ],
+      "answer": "Reasoning and Acting framework"
+    },
+    {
+      "question": "Why is ReAct popular?",
+      "options": [
+        "Combines reasoning with tool usage",
+        "Reduces model size",
+        "Improves compression",
+        "Reduces data requirements"
+      ],
+      "answer": "Combines reasoning with tool usage"
+    },
+    {
+      "question": "What is agent orchestration?",
+      "options": [
+        "Managing agents, tools, and workflows",
+        "Managing databases",
+        "Training neural networks",
+        "Scaling embeddings"
+      ],
+      "answer": "Managing agents, tools, and workflows"
+    },
+    {
+      "question": "What is a multi-agent system?",
+      "options": [
+        "Multiple agents working together",
+        "Multiple databases",
+        "Multiple neural networks",
+        "Multiple prompts"
+      ],
+      "answer": "Multiple agents working together"
+    },
+    {
+      "question": "What is agent collaboration?",
+      "options": [
+        "Agents sharing tasks and information",
+        "Agent training",
+        "Agent deployment",
+        "Agent compression"
+      ],
+      "answer": "Agents sharing tasks and information"
+    },
+    {
+      "question": "What is agent delegation?",
+      "options": [
+        "Assigning tasks to other agents",
+        "Removing agents",
+        "Deleting tools",
+        "Scaling vectors"
+      ],
+      "answer": "Assigning tasks to other agents"
+    },
+    {
+      "question": "What is hierarchical agent architecture?",
+      "options": [
+        "Agents organized with managers and workers",
+        "Flat database structure",
+        "Vector hierarchy",
+        "Prompt hierarchy"
+      ],
+      "answer": "Agents organized with managers and workers"
+    },
+    {
+      "question": "What is a supervisor agent?",
+      "options": [
+        "Agent coordinating other agents",
+        "Agent doing all work itself",
+        "Memory store",
+        "Vector database"
+      ],
+      "answer": "Agent coordinating other agents"
+    },
+    {
+      "question": "What is a worker agent?",
+      "options": [
+        "Agent performing assigned tasks",
+        "Agent creating prompts",
+        "Agent training models",
+        "Agent storing embeddings"
+      ],
+      "answer": "Agent performing assigned tasks"
+    },
+
+    {
+      "question": "What is task decomposition?",
+      "options": [
+        "Breaking large goals into smaller tasks",
+        "Deleting tasks",
+        "Compressing prompts",
+        "Reducing memory"
+      ],
+      "answer": "Breaking large goals into smaller tasks"
+    },
+    {
+      "question": "Why is task decomposition useful?",
+      "options": [
+        "Improves problem-solving efficiency",
+        "Reduces context only",
+        "Eliminates reasoning",
+        "Removes memory needs"
+      ],
+      "answer": "Improves problem-solving efficiency"
+    },
+    {
+      "question": "What is dynamic planning?",
+      "options": [
+        "Adjusting plans based on new information",
+        "Static workflows",
+        "Data preprocessing",
+        "Vector indexing"
+      ],
+      "answer": "Adjusting plans based on new information"
+    },
+    {
+      "question": "What is adaptive behavior?",
+      "options": [
+        "Changing actions according to circumstances",
+        "Fixed responses only",
+        "Data normalization",
+        "Prompt compression"
+      ],
+      "answer": "Changing actions according to circumstances"
+    },
+    {
+      "question": "What is an objective function?",
+      "options": [
+        "Measure used to evaluate success",
+        "Prompt template",
+        "Memory storage",
+        "Embedding vector"
+      ],
+      "answer": "Measure used to evaluate success"
+    },
+    {
+      "question": "What is goal prioritization?",
+      "options": [
+        "Ranking objectives by importance",
+        "Deleting goals",
+        "Training models",
+        "Reducing prompts"
+      ],
+      "answer": "Ranking objectives by importance"
+    },
+    {
+      "question": "What is agent evaluation?",
+      "options": [
+        "Measuring agent performance",
+        "Training models",
+        "Creating vectors",
+        "Optimizing databases"
+      ],
+      "answer": "Measuring agent performance"
+    },
+    {
+      "question": "What is success rate in agent evaluation?",
+      "options": [
+        "Percentage of completed goals",
+        "GPU utilization",
+        "Memory consumption",
+        "Token count"
+      ],
+      "answer": "Percentage of completed goals"
+    },
+    {
+      "question": "What is latency in agent systems?",
+      "options": [
+        "Time taken to respond or act",
+        "Model size",
+        "Context length",
+        "Embedding dimension"
+      ],
+      "answer": "Time taken to respond or act"
+    },
+    {
+      "question": "What is agent reliability?",
+      "options": [
+        "Ability to consistently achieve goals",
+        "Ability to generate images",
+        "Ability to train models",
+        "Ability to compress files"
+      ],
+      "answer": "Ability to consistently achieve goals"
+    },
+
+    {
+      "question": "What is a planning agent?",
+      "options": [
+        "Agent focused on creating action plans",
+        "Agent focused only on memory",
+        "Agent focused only on retrieval",
+        "Agent focused only on storage"
+      ],
+      "answer": "Agent focused on creating action plans"
+    },
+    {
+      "question": "What is a retrieval agent?",
+      "options": [
+        "Agent specialized in information retrieval",
+        "Agent specialized in deployment",
+        "Agent specialized in training",
+        "Agent specialized in monitoring"
+      ],
+      "answer": "Agent specialized in information retrieval"
+    },
+    {
+      "question": "What is a coding agent?",
+      "options": [
+        "Agent specialized in software tasks",
+        "Agent specialized in images",
+        "Agent specialized in speech",
+        "Agent specialized in databases"
+      ],
+      "answer": "Agent specialized in software tasks"
+    },
+    {
+      "question": "What is a research agent?",
+      "options": [
+        "Agent specialized in gathering information",
+        "Agent specialized in graphics",
+        "Agent specialized in storage",
+        "Agent specialized in hardware"
+      ],
+      "answer": "Agent specialized in gathering information"
+    },
+    {
+      "question": "What is a conversational agent?",
+      "options": [
+        "Agent optimized for dialogue",
+        "Agent optimized for clustering",
+        "Agent optimized for indexing",
+        "Agent optimized for compression"
+      ],
+      "answer": "Agent optimized for dialogue"
+    },
+    {
+      "question": "What is a tool registry?",
+      "options": [
+        "Catalog of available tools",
+        "List of datasets",
+        "Model leaderboard",
+        "Memory cache"
+      ],
+      "answer": "Catalog of available tools"
+    },
+    {
+      "question": "What is function calling?",
+      "options": [
+        "Structured invocation of tools",
+        "Calling a programmer",
+        "Calling model weights",
+        "Calling GPUs"
+      ],
+      "answer": "Structured invocation of tools"
+    },
+    {
+      "question": "Why do agents need APIs?",
+      "options": [
+        "To interact with external systems",
+        "To increase parameters",
+        "To reduce reasoning",
+        "To reduce memory"
+      ],
+      "answer": "To interact with external systems"
+    },
+    {
+      "question": "What is API integration?",
+      "options": [
+        "Connecting agents to services",
+        "Training LLMs",
+        "Compressing prompts",
+        "Building vectors"
+      ],
+      "answer": "Connecting agents to services"
+    },
+    {
+      "question": "What is workflow automation?",
+      "options": [
+        "Automating business processes with agents",
+        "Creating neural layers",
+        "Feature scaling",
+        "Tokenization"
+      ],
+      "answer": "Automating business processes with agents"
+    },
+
+    {
+      "question": "What is Human-in-the-Loop (HITL)?",
+      "options": [
+        "Human oversight during agent decisions",
+        "Human model training",
+        "Human data storage",
+        "Human vector search"
+      ],
+      "answer": "Human oversight during agent decisions"
+    },
+    {
+      "question": "Why use Human-in-the-Loop?",
+      "options": [
+        "Improve safety and accuracy",
+        "Increase hardware costs",
+        "Reduce monitoring",
+        "Increase hallucinations"
+      ],
+      "answer": "Improve safety and accuracy"
+    },
+    {
+      "question": "What is agent monitoring?",
+      "options": [
+        "Tracking behavior and performance",
+        "Training datasets",
+        "Prompt creation",
+        "Memory deletion"
+      ],
+      "answer": "Tracking behavior and performance"
+    },
+    {
+      "question": "What is observability in Agentic AI?",
+      "options": [
+        "Ability to inspect agent actions",
+        "Ability to train CNNs",
+        "Ability to create datasets",
+        "Ability to compress data"
+      ],
+      "answer": "Ability to inspect agent actions"
+    },
+    {
+      "question": "What is traceability?",
+      "options": [
+        "Tracking how decisions were made",
+        "Tracking datasets",
+        "Tracking GPUs",
+        "Tracking tokens only"
+      ],
+      "answer": "Tracking how decisions were made"
+    },
+    {
+      "question": "Why maintain agent logs?",
+      "options": [
+        "Audit and debugging purposes",
+        "Increase prediction speed",
+        "Reduce reasoning",
+        "Create embeddings"
+      ],
+      "answer": "Audit and debugging purposes"
+    },
+    {
+      "question": "What is agent governance?",
+      "options": [
+        "Policies controlling agent behavior",
+        "Neural network optimization",
+        "Database indexing",
+        "Prompt compression"
+      ],
+      "answer": "Policies controlling agent behavior"
+    },
+    {
+      "question": "What is responsible Agentic AI?",
+      "options": [
+        "Safe, ethical, and compliant agent behavior",
+        "Large context windows",
+        "GPU optimization",
+        "Neural network training"
+      ],
+      "answer": "Safe, ethical, and compliant agent behavior"
+    },
+    {
+      "question": "Why are guardrails important?",
+      "options": [
+        "Prevent unsafe behavior",
+        "Increase token limits",
+        "Improve compression",
+        "Increase parameters"
+      ],
+      "answer": "Prevent unsafe behavior"
+    },
+    {
+      "question": "What is a safety guardrail?",
+      "options": [
+        "Mechanism restricting unsafe actions",
+        "Training algorithm",
+        "Vector database",
+        "Memory cache"
+      ],
+      "answer": "Mechanism restricting unsafe actions"
+    },
+
+    {
+      "question": "What is prompt injection?",
+      "options": [
+        "Attempt to manipulate instructions",
+        "Prompt optimization",
+        "Prompt testing",
+        "Prompt storage"
+      ],
+      "answer": "Attempt to manipulate instructions"
+    },
+    {
+      "question": "Why are agents vulnerable to prompt injection?",
+      "options": [
+        "They process external inputs",
+        "They use GPUs",
+        "They use APIs",
+        "They use embeddings"
+      ],
+      "answer": "They process external inputs"
+    },
+    {
+      "question": "What is permission management?",
+      "options": [
+        "Controlling what agents can access",
+        "Embedding generation",
+        "Prompt tuning",
+        "Training supervision"
+      ],
+      "answer": "Controlling what agents can access"
+    },
+    {
+      "question": "What is least-privilege access?",
+      "options": [
+        "Giving minimum required permissions",
+        "Giving full permissions",
+        "Removing all permissions",
+        "Creating new permissions"
+      ],
+      "answer": "Giving minimum required permissions"
+    },
+    {
+      "question": "What is a sandbox environment?",
+      "options": [
+        "Isolated execution environment",
+        "Database cluster",
+        "Prompt repository",
+        "Vector index"
+      ],
+      "answer": "Isolated execution environment"
+    },
+    {
+      "question": "Why sandbox agents?",
+      "options": [
+        "Reduce operational risk",
+        "Increase memory",
+        "Increase parameters",
+        "Increase token count"
+      ],
+      "answer": "Reduce operational risk"
+    },
+    {
+      "question": "What is retrieval-augmented agent behavior?",
+      "options": [
+        "Using knowledge retrieval before acting",
+        "Using CNNs",
+        "Using clustering",
+        "Using reinforcement only"
+      ],
+      "answer": "Using knowledge retrieval before acting"
+    },
+    {
+      "question": "What is agent grounding?",
+      "options": [
+        "Basing actions on trusted information",
+        "Model compression",
+        "Feature engineering",
+        "Tokenization"
+      ],
+      "answer": "Basing actions on trusted information"
+    },
+    {
+      "question": "What is agent hallucination?",
+      "options": [
+        "Incorrect reasoning or fabricated information",
+        "Perfect prediction",
+        "Model deployment",
+        "System logging"
+      ],
+      "answer": "Incorrect reasoning or fabricated information"
+    },
+    {
+      "question": "Which technique helps reduce hallucinations?",
+      "options": [
+        "Grounding and retrieval",
+        "Increasing randomness",
+        "Reducing context",
+        "Disabling tools"
+      ],
+      "answer": "Grounding and retrieval"
+    },
+
+    {
+      "question": "What is reinforcement learning in agents?",
+      "options": [
+        "Learning from rewards and penalties",
+        "Learning from labels",
+        "Learning from clustering",
+        "Learning from embeddings"
+      ],
+      "answer": "Learning from rewards and penalties"
+    },
+    {
+      "question": "What is a reward signal?",
+      "options": [
+        "Feedback indicating success",
+        "Prompt template",
+        "Memory object",
+        "Neural weight"
+      ],
+      "answer": "Feedback indicating success"
+    },
+    {
+      "question": "What is agent adaptation?",
+      "options": [
+        "Adjusting behavior over time",
+        "Model compression",
+        "Token pruning",
+        "Prompt removal"
+      ],
+      "answer": "Adjusting behavior over time"
+    },
+    {
+      "question": "What is self-improvement in agents?",
+      "options": [
+        "Using feedback to perform better",
+        "Adding GPUs",
+        "Expanding datasets",
+        "Increasing context size"
+      ],
+      "answer": "Using feedback to perform better"
+    },
+    {
+      "question": "What is reflection in Agentic AI?",
+      "options": [
+        "Reviewing and improving prior actions",
+        "Mirroring prompts",
+        "Duplicating memory",
+        "Repeating outputs"
+      ],
+      "answer": "Reviewing and improving prior actions"
+    },
+    {
+      "question": "What is self-critique?",
+      "options": [
+        "Evaluating generated actions or responses",
+        "Agent deployment",
+        "Agent training",
+        "Vector retrieval"
+      ],
+      "answer": "Evaluating generated actions or responses"
+    },
+    {
+      "question": "What is MCP?",
+      "options": [
+        "Model Context Protocol",
+        "Machine Control Pipeline",
+        "Memory Context Parser",
+        "Managed Compute Platform"
+      ],
+      "answer": "Model Context Protocol"
+    },
+    {
+      "question": "Why is MCP important?",
+      "options": [
+        "Standardizes tool and context access",
+        "Reduces parameters",
+        "Changes model architecture",
+        "Improves hardware"
+      ],
+      "answer": "Standardizes tool and context access"
+    },
+    {
+      "question": "What is an enterprise AI agent?",
+      "options": [
+        "Agent integrated into business systems",
+        "Research model",
+        "Open-source dataset",
+        "Image model"
+      ],
+      "answer": "Agent integrated into business systems"
+    },
+    {
+      "question": "What is an executive assistant agent?",
+      "options": [
+        "Agent helping with scheduling and productivity",
+        "Agent training models",
+        "Agent creating embeddings",
+        "Agent designing hardware"
+      ],
+      "answer": "Agent helping with scheduling and productivity"
+    },
+
+    {
+      "question": "What is a customer service agent?",
+      "options": [
+        "Agent assisting customer interactions",
+        "Database server",
+        "Security firewall",
+        "Training framework"
+      ],
+      "answer": "Agent assisting customer interactions"
+    },
+    {
+      "question": "What is a software engineering agent?",
+      "options": [
+        "Agent helping build and maintain software",
+        "Image classifier",
+        "Database optimizer",
+        "Hardware monitor"
+      ],
+      "answer": "Agent helping build and maintain software"
+    },
+    {
+      "question": "What is an operations agent?",
+      "options": [
+        "Agent assisting business operations",
+        "Prompt store",
+        "Model trainer",
+        "Vector cache"
+      ],
+      "answer": "Agent assisting business operations"
+    },
+    {
+      "question": "What is agent scalability?",
+      "options": [
+        "Ability to handle growing workloads",
+        "Ability to reduce datasets",
+        "Ability to compress prompts",
+        "Ability to decrease memory"
+      ],
+      "answer": "Ability to handle growing workloads"
+    },
+    {
+      "question": "What is distributed agent architecture?",
+      "options": [
+        "Agents operating across multiple systems",
+        "Single standalone model",
+        "Single prompt execution",
+        "Single memory store"
+      ],
+      "answer": "Agents operating across multiple systems"
+    },
+    {
+      "question": "What is fault tolerance?",
+      "options": [
+        "Ability to continue despite failures",
+        "Ability to train models",
+        "Ability to reduce latency",
+        "Ability to compress data"
+      ],
+      "answer": "Ability to continue despite failures"
+    },
+    {
+      "question": "What is agent resilience?",
+      "options": [
+        "Recovering from errors and disruptions",
+        "Increasing token limits",
+        "Extending context windows",
+        "Reducing memory"
+      ],
+      "answer": "Recovering from errors and disruptions"
+    },
+    {
+      "question": "What is agent benchmarking?",
+      "options": [
+        "Comparing agent performance",
+        "Comparing datasets",
+        "Comparing GPUs",
+        "Comparing embeddings"
+      ],
+      "answer": "Comparing agent performance"
+    },
+    {
+      "question": "What is a key metric for agent success?",
+      "options": [
+        "Goal completion",
+        "Randomness",
+        "Dataset size",
+        "Parameter count"
+      ],
+      "answer": "Goal completion"
+    },
+    {
+      "question": "What is the ultimate vision of Agentic AI?",
+      "options": [
+        "Autonomous systems that effectively collaborate, reason, and act toward goals",
+        "Larger databases",
+        "More GPUs",
+        "Longer prompts"
+      ],
+      "answer": "Autonomous systems that effectively collaborate, reason, and act toward goals"
+    }
+  ]
+}

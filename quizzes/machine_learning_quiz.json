@@ -1,0 +1,618 @@
+{
+  "quiz": [
+    {
+      "question": "What is supervised learning?",
+      "options": [
+        "Learning from labeled data",
+        "Learning without data",
+        "Learning from hardware",
+        "Learning randomly"
+      ],
+      "answer": "Learning from labeled data"
+    },
+    {
+      "question": "Which is an unsupervised algorithm?",
+      "options": [
+        "Linear Regression",
+        "Decision Tree",
+        "K-Means",
+        "Random Forest"
+      ],
+      "answer": "K-Means"
+    },
+    {
+      "question": "What is Machine Learning?",
+      "options": [
+        "Programming without data",
+        "A method that enables systems to learn from data",
+        "A database technology",
+        "A networking protocol"
+      ],
+      "answer": "A method that enables systems to learn from data"
+    },
+    {
+      "question": "Which type of learning uses labeled data?",
+      "options": [
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Reinforcement Learning",
+        "Transfer Learning"
+      ],
+      "answer": "Supervised Learning"
+    },
+    {
+      "question": "Which type of learning uses unlabeled data?",
+      "options": [
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Reinforcement Learning",
+        "Deep Learning"
+      ],
+      "answer": "Unsupervised Learning"
+    },
+    {
+      "question": "What is the goal of a classification model?",
+      "options": [
+        "Predict categories",
+        "Predict continuous values",
+        "Store data",
+        "Compress files"
+      ],
+      "answer": "Predict categories"
+    },
+    {
+      "question": "What is the goal of a regression model?",
+      "options": [
+        "Predict classes",
+        "Predict continuous values",
+        "Reduce dimensions",
+        "Cluster records"
+      ],
+      "answer": "Predict continuous values"
+    },
+    {
+      "question": "Which algorithm is commonly used for regression?",
+      "options": [
+        "Linear Regression",
+        "K-Means",
+        "Apriori",
+        "DBSCAN"
+      ],
+      "answer": "Linear Regression"
+    },
+    {
+      "question": "Which algorithm is commonly used for classification?",
+      "options": [
+        "Logistic Regression",
+        "K-Means",
+        "PCA",
+        "Apriori"
+      ],
+      "answer": "Logistic Regression"
+    },
+    {
+      "question": "What is overfitting?",
+      "options": [
+        "Model performs well on training data but poorly on new data",
+        "Model performs poorly everywhere",
+        "Model trains too slowly",
+        "Model uses too little data"
+      ],
+      "answer": "Model performs well on training data but poorly on new data"
+    },
+    {
+      "question": "What is underfitting?",
+      "options": [
+        "Model fails to learn patterns in data",
+        "Model memorizes training data",
+        "Model has too many features",
+        "Model has perfect accuracy"
+      ],
+      "answer": "Model fails to learn patterns in data"
+    },
+    {
+      "question": "What is a feature?",
+      "options": [
+        "Input variable",
+        "Output label",
+        "Error metric",
+        "Prediction"
+      ],
+      "answer": "Input variable"
+    },
+    {
+      "question": "What is a label?",
+      "options": [
+        "Target variable",
+        "Feature column",
+        "Hyperparameter",
+        "Loss function"
+      ],
+      "answer": "Target variable"
+    },
+    {
+      "question": "Which metric is commonly used for classification?",
+      "options": [
+        "Accuracy",
+        "RMSE",
+        "MAE",
+        "MSE"
+      ],
+      "answer": "Accuracy"
+    },
+    {
+      "question": "Which metric is commonly used for regression?",
+      "options": [
+        "RMSE",
+        "Precision",
+        "Recall",
+        "F1 Score"
+      ],
+      "answer": "RMSE"
+    },
+    {
+      "question": "What does MAE stand for?",
+      "options": [
+        "Mean Absolute Error",
+        "Maximum Accuracy Evaluation",
+        "Mean Average Estimation",
+        "Model Accuracy Error"
+      ],
+      "answer": "Mean Absolute Error"
+    },
+    {
+      "question": "What does MSE stand for?",
+      "options": [
+        "Mean Squared Error",
+        "Maximum Squared Evaluation",
+        "Model Standard Error",
+        "Machine Scoring Estimate"
+      ],
+      "answer": "Mean Squared Error"
+    },
+    {
+      "question": "Why is data preprocessing important?",
+      "options": [
+        "Improves model quality",
+        "Reduces internet usage",
+        "Creates hardware",
+        "Stores data"
+      ],
+      "answer": "Improves model quality"
+    },
+    {
+      "question": "What is normalization?",
+      "options": [
+        "Scaling values to a common range",
+        "Removing rows",
+        "Encoding labels",
+        "Splitting data"
+      ],
+      "answer": "Scaling values to a common range"
+    },
+    {
+      "question": "What is standardization?",
+      "options": [
+        "Transforming data to zero mean and unit variance",
+        "Grouping records",
+        "Creating features",
+        "Removing outliers"
+      ],
+      "answer": "Transforming data to zero mean and unit variance"
+    },
+    {
+      "question": "What is feature engineering?",
+      "options": [
+        "Creating or transforming features",
+        "Buying hardware",
+        "Writing databases",
+        "Deploying models"
+      ],
+      "answer": "Creating or transforming features"
+    },
+    {
+      "question": "Which algorithm performs clustering?",
+      "options": [
+        "K-Means",
+        "Linear Regression",
+        "Random Forest",
+        "SVM"
+      ],
+      "answer": "K-Means"
+    },
+
+    {
+      "question": "What is K in K-Means?",
+      "options": [
+        "Number of clusters",
+        "Number of features",
+        "Number of epochs",
+        "Number of trees"
+      ],
+      "answer": "Number of clusters"
+    },
+    {
+      "question": "What is a decision tree?",
+      "options": [
+        "Tree-based predictive model",
+        "Database structure",
+        "Neural network",
+        "Clustering method"
+      ],
+      "answer": "Tree-based predictive model"
+    },
+    {
+      "question": "What does Random Forest consist of?",
+      "options": [
+        "Multiple decision trees",
+        "Multiple neural networks",
+        "Multiple datasets",
+        "Multiple clusters"
+      ],
+      "answer": "Multiple decision trees"
+    },
+    {
+      "question": "What is ensemble learning?",
+      "options": [
+        "Combining multiple models",
+        "Removing features",
+        "Scaling data",
+        "Reducing dimensions"
+      ],
+      "answer": "Combining multiple models"
+    },
+    {
+      "question": "Which algorithm uses support vectors?",
+      "options": [
+        "SVM",
+        "KNN",
+        "PCA",
+        "Naive Bayes"
+      ],
+      "answer": "SVM"
+    },
+    {
+      "question": "What does KNN stand for?",
+      "options": [
+        "K-Nearest Neighbors",
+        "Known Neural Network",
+        "Kernel Nearest Node",
+        "Knowledge Neural Navigator"
+      ],
+      "answer": "K-Nearest Neighbors"
+    },
+    {
+      "question": "KNN predicts based on?",
+      "options": [
+        "Nearest neighbors",
+        "Random guesses",
+        "Decision trees",
+        "Clusters"
+      ],
+      "answer": "Nearest neighbors"
+    },
+    {
+      "question": "What assumption does Naive Bayes make?",
+      "options": [
+        "Features are independent",
+        "Data is clustered",
+        "Trees are balanced",
+        "Labels are continuous"
+      ],
+      "answer": "Features are independent"
+    },
+    {
+      "question": "What is PCA used for?",
+      "options": [
+        "Dimensionality reduction",
+        "Classification only",
+        "Regression only",
+        "Clustering only"
+      ],
+      "answer": "Dimensionality reduction"
+    },
+    {
+      "question": "What is dimensionality reduction?",
+      "options": [
+        "Reducing number of features",
+        "Reducing labels",
+        "Reducing records",
+        "Reducing predictions"
+      ],
+      "answer": "Reducing number of features"
+    },
+
+    {
+      "question": "What is cross-validation?",
+      "options": [
+        "Evaluating model on multiple data splits",
+        "Removing duplicates",
+        "Encoding data",
+        "Scaling features"
+      ],
+      "answer": "Evaluating model on multiple data splits"
+    },
+    {
+      "question": "What is k-fold cross-validation?",
+      "options": [
+        "Data split into k subsets",
+        "K-Means variation",
+        "Random forest method",
+        "Neural network layer"
+      ],
+      "answer": "Data split into k subsets"
+    },
+    {
+      "question": "Why split data into train and test sets?",
+      "options": [
+        "Evaluate generalization",
+        "Reduce storage",
+        "Improve internet speed",
+        "Reduce dimensions"
+      ],
+      "answer": "Evaluate generalization"
+    },
+    {
+      "question": "What is a confusion matrix?",
+      "options": [
+        "Classification evaluation table",
+        "Regression chart",
+        "Feature list",
+        "Training dataset"
+      ],
+      "answer": "Classification evaluation table"
+    },
+    {
+      "question": "Precision measures?",
+      "options": [
+        "Correct positive predictions",
+        "Correct negative predictions",
+        "Model speed",
+        "Training size"
+      ],
+      "answer": "Correct positive predictions"
+    },
+    {
+      "question": "Recall measures?",
+      "options": [
+        "Ability to find actual positives",
+        "Training accuracy",
+        "Memory usage",
+        "Inference speed"
+      ],
+      "answer": "Ability to find actual positives"
+    },
+    {
+      "question": "F1 Score combines?",
+      "options": [
+        "Precision and Recall",
+        "RMSE and MAE",
+        "Accuracy and MSE",
+        "Variance and Bias"
+      ],
+      "answer": "Precision and Recall"
+    },
+    {
+      "question": "What is ROC-AUC used for?",
+      "options": [
+        "Classification evaluation",
+        "Feature selection",
+        "Clustering",
+        "Data cleaning"
+      ],
+      "answer": "Classification evaluation"
+    },
+    {
+      "question": "What is a hyperparameter?",
+      "options": [
+        "User-defined configuration",
+        "Model prediction",
+        "Output class",
+        "Training sample"
+      ],
+      "answer": "User-defined configuration"
+    },
+    {
+      "question": "Hyperparameter tuning aims to?",
+      "options": [
+        "Improve model performance",
+        "Reduce dataset size",
+        "Delete features",
+        "Create clusters"
+      ],
+      "answer": "Improve model performance"
+    },
+
+    {
+      "question": "What is Grid Search?",
+      "options": [
+        "Exhaustive hyperparameter search",
+        "Feature scaling method",
+        "Clustering algorithm",
+        "Visualization technique"
+      ],
+      "answer": "Exhaustive hyperparameter search"
+    },
+    {
+      "question": "What is Random Search?",
+      "options": [
+        "Random hyperparameter selection",
+        "Random prediction generation",
+        "Random clustering",
+        "Data sampling only"
+      ],
+      "answer": "Random hyperparameter selection"
+    },
+    {
+      "question": "What is bias in ML?",
+      "options": [
+        "Error from incorrect assumptions",
+        "Model size",
+        "Feature count",
+        "Prediction speed"
+      ],
+      "answer": "Error from incorrect assumptions"
+    },
+    {
+      "question": "What is variance in ML?",
+      "options": [
+        "Sensitivity to training data",
+        "Storage usage",
+        "Feature scaling",
+        "Dataset size"
+      ],
+      "answer": "Sensitivity to training data"
+    },
+    {
+      "question": "Bias-variance tradeoff balances?",
+      "options": [
+        "Underfitting and overfitting",
+        "Accuracy and storage",
+        "Data and hardware",
+        "Precision and recall"
+      ],
+      "answer": "Underfitting and overfitting"
+    },
+    {
+      "question": "What does Bagging stand for?",
+      "options": [
+        "Bootstrap Aggregating",
+        "Balanced Aggregation",
+        "Batch Grouping",
+        "Boosted Aggregation"
+      ],
+      "answer": "Bootstrap Aggregating"
+    },
+    {
+      "question": "What is Boosting?",
+      "options": [
+        "Sequentially improving weak learners",
+        "Reducing dimensions",
+        "Scaling features",
+        "Encoding labels"
+      ],
+      "answer": "Sequentially improving weak learners"
+    },
+    {
+      "question": "Which algorithm is a boosting method?",
+      "options": [
+        "XGBoost",
+        "KNN",
+        "PCA",
+        "K-Means"
+      ],
+      "answer": "XGBoost"
+    },
+    {
+      "question": "What does XGBoost stand for?",
+      "options": [
+        "Extreme Gradient Boosting",
+        "Extra General Boosting",
+        "Extended Gradient Branching",
+        "External Graph Boosting"
+      ],
+      "answer": "Extreme Gradient Boosting"
+    },
+    {
+      "question": "What is feature importance?",
+      "options": [
+        "Contribution of features to predictions",
+        "Feature size",
+        "Feature storage",
+        "Feature color"
+      ],
+      "answer": "Contribution of features to predictions"
+    },
+
+    {
+      "question": "What is Deep Learning?",
+      "options": [
+        "Machine Learning using deep neural networks",
+        "Database optimization",
+        "Cloud computing",
+        "Feature encoding"
+      ],
+      "answer": "Machine Learning using deep neural networks"
+    },
+    {
+      "question": "What is a neural network inspired by?",
+      "options": [
+        "Human brain",
+        "Database tables",
+        "Network switches",
+        "Operating systems"
+      ],
+      "answer": "Human brain"
+    },
+    {
+      "question": "What is a neuron in a neural network?",
+      "options": [
+        "Computational unit",
+        "Database row",
+        "Dataset split",
+        "Metric"
+      ],
+      "answer": "Computational unit"
+    },
+    {
+      "question": "What is an activation function?",
+      "options": [
+        "Introduces non-linearity",
+        "Scales features",
+        "Stores outputs",
+        "Removes features"
+      ],
+      "answer": "Introduces non-linearity"
+    },
+    {
+      "question": "Which activation function is most common?",
+      "options": [
+        "ReLU",
+        "SQL",
+        "JSON",
+        "CSV"
+      ],
+      "answer": "ReLU"
+    },
+    {
+      "question": "What does ReLU stand for?",
+      "options": [
+        "Rectified Linear Unit",
+        "Reduced Learning Unit",
+        "Regression Linear Utility",
+        "Recursive Learning Unit"
+      ],
+      "answer": "Rectified Linear Unit"
+    },
+    {
+      "question": "What is backpropagation?",
+      "options": [
+        "Updating weights using errors",
+        "Data cleaning",
+        "Model deployment",
+        "Feature scaling"
+      ],
+      "answer": "Updating weights using errors"
+    },
+    {
+      "question": "What is gradient descent?",
+      "options": [
+        "Optimization algorithm",
+        "Clustering method",
+        "Feature selection method",
+        "Evaluation metric"
+      ],
+      "answer": "Optimization algorithm"
+    },
+    {
+      "question": "What is an epoch?",
+      "options": [
+        "One full pass through training data",
+        "One prediction",
+        "One feature",
+        "One cluster"
+      ],
+      "answer": "One full"
+    }
+  ]
+}

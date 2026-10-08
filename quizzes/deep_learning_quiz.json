@@ -1,0 +1,961 @@
+{
+  "quiz": [
+    {
+      "question": "Deep Learning is primarily based on which technology?",
+      "options": [
+        "Relational Databases",
+        "Neural Networks",
+        "Operating Systems",
+        "Computer Networks"
+      ],
+      "answer": "Neural Networks"
+    },
+    {
+      "question": "What does CNN stand for?",
+      "options": [
+        "Central Neural Network",
+        "Convolutional Neural Network",
+        "Computer Neural Node",
+        "Connected Neural Network"
+      ],
+      "answer": "Convolutional Neural Network"
+    },
+    {
+      "question": "CNNs are mainly used for which type of data?",
+      "options": [
+        "Images",
+        "Financial Records",
+        "Text Files",
+        "Databases"
+      ],
+      "answer": "Images"
+    },
+    {
+      "question": "Which neural network is commonly used for sequence data?",
+      "options": [
+        "CNN",
+        "RNN",
+        "K-Means",
+        "Decision Tree"
+      ],
+      "answer": "RNN"
+    },
+    {
+      "question": "What is the purpose of hidden layers in a neural network?",
+      "options": [
+        "Store files",
+        "Reduce storage space",
+        "Learn complex patterns from data",
+        "Manage databases"
+      ],
+      "answer": "Learn complex patterns from data"
+    },
+    {
+      "question": "What is Deep Learning?",
+      "options": [
+        "A subset of Machine Learning using neural networks",
+        "A database technology",
+        "A programming language",
+        "A cloud service"
+      ],
+      "answer": "A subset of Machine Learning using neural networks"
+    },
+    {
+      "question": "What is an artificial neuron?",
+      "options": [
+        "A computational unit in a neural network",
+        "A database record",
+        "An operating system process",
+        "A clustering algorithm"
+      ],
+      "answer": "A computational unit in a neural network"
+    },
+    {
+      "question": "What is the input layer?",
+      "options": [
+        "First layer receiving data",
+        "Final prediction layer",
+        "Hidden layer",
+        "Output activation function"
+      ],
+      "answer": "First layer receiving data"
+    },
+    {
+      "question": "What is the output layer?",
+      "options": [
+        "Layer producing predictions",
+        "Layer receiving inputs",
+        "Data preprocessing step",
+        "Normalization layer"
+      ],
+      "answer": "Layer producing predictions"
+    },
+    {
+      "question": "What is a hidden layer?",
+      "options": [
+        "Layer between input and output layers",
+        "Training dataset",
+        "Loss function",
+        "Optimizer"
+      ],
+      "answer": "Layer between input and output layers"
+    },
+    {
+      "question": "What is a weight in a neural network?",
+      "options": [
+        "Learnable parameter",
+        "Training sample",
+        "Feature name",
+        "Evaluation metric"
+      ],
+      "answer": "Learnable parameter"
+    },
+    {
+      "question": "What is a bias term?",
+      "options": [
+        "Additional learnable parameter",
+        "Dataset error",
+        "Prediction score",
+        "Feature engineering method"
+      ],
+      "answer": "Additional learnable parameter"
+    },
+    {
+      "question": "What is an activation function?",
+      "options": [
+        "Function that introduces non-linearity",
+        "Evaluation metric",
+        "Data transformation",
+        "Optimizer"
+      ],
+      "answer": "Function that introduces non-linearity"
+    },
+    {
+      "question": "Which activation function is commonly used in hidden layers?",
+      "options": [
+        "ReLU",
+        "MSE",
+        "PCA",
+        "Softmax"
+      ],
+      "answer": "ReLU"
+    },
+    {
+      "question": "What does ReLU stand for?",
+      "options": [
+        "Rectified Linear Unit",
+        "Reduced Learning Unit",
+        "Random Linear Update",
+        "Recursive Learning Utility"
+      ],
+      "answer": "Rectified Linear Unit"
+    },
+    {
+      "question": "Which activation function outputs values between 0 and 1?",
+      "options": [
+        "Sigmoid",
+        "ReLU",
+        "Softplus",
+        "Linear"
+      ],
+      "answer": "Sigmoid"
+    },
+    {
+      "question": "Which activation function outputs probabilities across classes?",
+      "options": [
+        "Softmax",
+        "ReLU",
+        "Sigmoid",
+        "Tanh"
+      ],
+      "answer": "Softmax"
+    },
+    {
+      "question": "What does Tanh output range between?",
+      "options": [
+        "-1 and 1",
+        "0 and 1",
+        "1 and 10",
+        "-10 and 10"
+      ],
+      "answer": "-1 and 1"
+    },
+    {
+      "question": "What is forward propagation?",
+      "options": [
+        "Passing inputs through the network",
+        "Updating weights",
+        "Cleaning data",
+        "Evaluating model"
+      ],
+      "answer": "Passing inputs through the network"
+    },
+    {
+      "question": "What is backpropagation?",
+      "options": [
+        "Updating weights using gradients",
+        "Loading data",
+        "Performing clustering",
+        "Reducing features"
+      ],
+      "answer": "Updating weights using gradients"
+    },
+    {
+      "question": "What is a loss function?",
+      "options": [
+        "Measures prediction error",
+        "Stores weights",
+        "Loads training data",
+        "Scales inputs"
+      ],
+      "answer": "Measures prediction error"
+    },
+    {
+      "question": "Which loss is common for regression?",
+      "options": [
+        "Mean Squared Error",
+        "Cross Entropy",
+        "Hinge Loss",
+        "Focal Loss"
+      ],
+      "answer": "Mean Squared Error"
+    },
+    {
+      "question": "Which loss is common for classification?",
+      "options": [
+        "Cross Entropy",
+        "RMSE",
+        "MAE",
+        "L1 Loss"
+      ],
+      "answer": "Cross Entropy"
+    },
+    {
+      "question": "What is gradient descent?",
+      "options": [
+        "Optimization algorithm",
+        "Activation function",
+        "Regularization method",
+        "Normalization technique"
+      ],
+      "answer": "Optimization algorithm"
+    },
+    {
+      "question": "What is the learning rate?",
+      "options": [
+        "Step size for weight updates",
+        "Number of neurons",
+        "Training dataset size",
+        "Model accuracy"
+      ],
+      "answer": "Step size for weight updates"
+    },
+
+    {
+      "question": "What happens when learning rate is too high?",
+      "options": [
+        "Training becomes unstable",
+        "Model trains perfectly",
+        "Loss becomes zero",
+        "Neurons are removed"
+      ],
+      "answer": "Training becomes unstable"
+    },
+    {
+      "question": "What happens when learning rate is too low?",
+      "options": [
+        "Training becomes slow",
+        "Training stops immediately",
+        "Accuracy becomes perfect",
+        "Model collapses"
+      ],
+      "answer": "Training becomes slow"
+    },
+    {
+      "question": "What is an epoch?",
+      "options": [
+        "One complete pass through data",
+        "One prediction",
+        "One neuron",
+        "One batch"
+      ],
+      "answer": "One complete pass through data"
+    },
+    {
+      "question": "What is batch size?",
+      "options": [
+        "Number of samples processed before update",
+        "Number of epochs",
+        "Number of classes",
+        "Number of layers"
+      ],
+      "answer": "Number of samples processed before update"
+    },
+    {
+      "question": "What is stochastic gradient descent?",
+      "options": [
+        "Uses one sample at a time",
+        "Uses all samples simultaneously",
+        "Uses no gradients",
+        "Uses PCA"
+      ],
+      "answer": "Uses one sample at a time"
+    },
+    {
+      "question": "What is mini-batch gradient descent?",
+      "options": [
+        "Uses small subsets of data",
+        "Uses one sample",
+        "Uses full dataset only",
+        "Uses no dataset"
+      ],
+      "answer": "Uses small subsets of data"
+    },
+    {
+      "question": "What is overfitting in deep learning?",
+      "options": [
+        "Memorizing training data",
+        "Learning too little",
+        "Reducing loss",
+        "Scaling features"
+      ],
+      "answer": "Memorizing training data"
+    },
+    {
+      "question": "What is underfitting?",
+      "options": [
+        "Failing to learn data patterns",
+        "Learning perfectly",
+        "Memorizing data",
+        "Data augmentation"
+      ],
+      "answer": "Failing to learn data patterns"
+    },
+    {
+      "question": "What is regularization used for?",
+      "options": [
+        "Reducing overfitting",
+        "Increasing layers",
+        "Scaling data",
+        "Changing labels"
+      ],
+      "answer": "Reducing overfitting"
+    },
+    {
+      "question": "What is L2 regularization?",
+      "options": [
+        "Penalty on large weights",
+        "Penalty on data size",
+        "Penalty on labels",
+        "Penalty on batches"
+      ],
+      "answer": "Penalty on large weights"
+    },
+
+    {
+      "question": "What is Dropout?",
+      "options": [
+        "Randomly disabling neurons during training",
+        "Removing training data",
+        "Deleting layers",
+        "Reducing classes"
+      ],
+      "answer": "Randomly disabling neurons during training"
+    },
+    {
+      "question": "What is Early Stopping?",
+      "options": [
+        "Stopping training when validation performance stops improving",
+        "Stopping after one epoch",
+        "Skipping batches",
+        "Removing neurons"
+      ],
+      "answer": "Stopping training when validation performance stops improving"
+    },
+    {
+      "question": "What is Batch Normalization?",
+      "options": [
+        "Normalization of layer inputs",
+        "Loss calculation method",
+        "Data cleaning method",
+        "Output encoding method"
+      ],
+      "answer": "Normalization of layer inputs"
+    },
+    {
+      "question": "Why use Batch Normalization?",
+      "options": [
+        "Improve training stability",
+        "Reduce dataset size",
+        "Remove labels",
+        "Create clusters"
+      ],
+      "answer": "Improve training stability"
+    },
+    {
+      "question": "What does CNN stand for?",
+      "options": [
+        "Convolutional Neural Network",
+        "Clustered Neural Network",
+        "Connected Neural Network",
+        "Compressed Neural Network"
+      ],
+      "answer": "Convolutional Neural Network"
+    },
+    {
+      "question": "CNNs are most commonly used for?",
+      "options": [
+        "Image processing",
+        "Database management",
+        "Networking",
+        "Feature selection"
+      ],
+      "answer": "Image processing"
+    },
+    {
+      "question": "What is a convolution layer?",
+      "options": [
+        "Feature extraction layer",
+        "Loss layer",
+        "Output layer",
+        "Batch layer"
+      ],
+      "answer": "Feature extraction layer"
+    },
+    {
+      "question": "What is a filter in CNN?",
+      "options": [
+        "Kernel used to extract features",
+        "Training batch",
+        "Neuron type",
+        "Loss metric"
+      ],
+      "answer": "Kernel used to extract features"
+    },
+    {
+      "question": "What is pooling?",
+      "options": [
+        "Reducing spatial dimensions",
+        "Increasing neurons",
+        "Creating labels",
+        "Generating embeddings"
+      ],
+      "answer": "Reducing spatial dimensions"
+    },
+    {
+      "question": "Which pooling method is common?",
+      "options": [
+        "Max Pooling",
+        "Mean Encoding",
+        "Soft Pooling",
+        "Gradient Pooling"
+      ],
+      "answer": "Max Pooling"
+    },
+
+    {
+      "question": "What does stride control?",
+      "options": [
+        "Movement of convolution filter",
+        "Neuron count",
+        "Learning rate",
+        "Batch size"
+      ],
+      "answer": "Movement of convolution filter"
+    },
+    {
+      "question": "What is padding?",
+      "options": [
+        "Adding borders around input",
+        "Removing pixels",
+        "Normalizing data",
+        "Reducing channels"
+      ],
+      "answer": "Adding borders around input"
+    },
+    {
+      "question": "Why use padding?",
+      "options": [
+        "Preserve spatial dimensions",
+        "Reduce dimensions",
+        "Remove noise",
+        "Create labels"
+      ],
+      "answer": "Preserve spatial dimensions"
+    },
+    {
+      "question": "What is feature map?",
+      "options": [
+        "Output of convolution operation",
+        "Input image",
+        "Loss surface",
+        "Training metric"
+      ],
+      "answer": "Output of convolution operation"
+    },
+    {
+      "question": "What does RNN stand for?",
+      "options": [
+        "Recurrent Neural Network",
+        "Recursive Neural Network",
+        "Reduced Neural Network",
+        "Random Neural Network"
+      ],
+      "answer": "Recurrent Neural Network"
+    },
+    {
+      "question": "RNNs are suitable for?",
+      "options": [
+        "Sequential data",
+        "Relational databases",
+        "Image compression",
+        "Web hosting"
+      ],
+      "answer": "Sequential data"
+    },
+    {
+      "question": "Which problem commonly affects RNNs?",
+      "options": [
+        "Vanishing gradients",
+        "Kernel size",
+        "Pooling error",
+        "Data leakage"
+      ],
+      "answer": "Vanishing gradients"
+    },
+    {
+      "question": "What does LSTM stand for?",
+      "options": [
+        "Long Short-Term Memory",
+        "Layered Short-Term Model",
+        "Linear System Training Model",
+        "Large Sequential Transfer Machine"
+      ],
+      "answer": "Long Short-Term Memory"
+    },
+    {
+      "question": "LSTM was designed to solve?",
+      "options": [
+        "Long-term dependency problems",
+        "Image segmentation",
+        "Feature engineering",
+        "Data scaling"
+      ],
+      "answer": "Long-term dependency problems"
+    },
+    {
+      "question": "What is a GRU?",
+      "options": [
+        "Simplified recurrent architecture",
+        "CNN variant",
+        "Loss function",
+        "Optimizer"
+      ],
+      "answer": "Simplified recurrent architecture"
+    },
+
+    {
+      "question": "What is attention in deep learning?",
+      "options": [
+        "Focusing on important information",
+        "Reducing neurons",
+        "Scaling images",
+        "Removing data"
+      ],
+      "answer": "Focusing on important information"
+    },
+    {
+      "question": "Which architecture popularized self-attention?",
+      "options": [
+        "Transformer",
+        "CNN",
+        "RNN",
+        "Perceptron"
+      ],
+      "answer": "Transformer"
+    },
+    {
+      "question": "Transformers rely heavily on?",
+      "options": [
+        "Attention mechanisms",
+        "Pooling layers",
+        "Decision trees",
+        "K-Means"
+      ],
+      "answer": "Attention mechanisms"
+    },
+    {
+      "question": "What is self-attention?",
+      "options": [
+        "Comparing elements within the same sequence",
+        "Comparing datasets",
+        "Comparing labels",
+        "Comparing models"
+      ],
+      "answer": "Comparing elements within the same sequence"
+    },
+    {
+      "question": "What is positional encoding?",
+      "options": [
+        "Adds sequence order information",
+        "Normalizes data",
+        "Reduces features",
+        "Generates labels"
+      ],
+      "answer": "Adds sequence order information"
+    },
+    {
+      "question": "BERT is primarily used for?",
+      "options": [
+        "Language understanding",
+        "Image segmentation",
+        "Clustering",
+        "Regression only"
+      ],
+      "answer": "Language understanding"
+    },
+    {
+      "question": "GPT models are designed for?",
+      "options": [
+        "Text generation",
+        "Image compression",
+        "Data cleaning",
+        "Network routing"
+      ],
+      "answer": "Text generation"
+    },
+    {
+      "question": "What is transfer learning?",
+      "options": [
+        "Using pretrained models for new tasks",
+        "Moving datasets",
+        "Transferring labels",
+        "Copying weights manually"
+      ],
+      "answer": "Using pretrained models for new tasks"
+    },
+    {
+      "question": "What is fine-tuning?",
+      "options": [
+        "Training a pretrained model on task-specific data",
+        "Creating a new dataset",
+        "Removing layers",
+        "Normalizing outputs"
+      ],
+      "answer": "Training a pretrained model on task-specific data"
+    },
+    {
+      "question": "What is data augmentation?",
+      "options": [
+        "Artificially increasing training data",
+        "Removing duplicates",
+        "Feature scaling",
+        "Hyperparameter tuning"
+      ],
+      "answer": "Artificially increasing training data"
+    },
+
+    {
+      "question": "Common image augmentation technique?",
+      "options": [
+        "Rotation",
+        "Regression",
+        "Backpropagation",
+        "Dropout"
+      ],
+      "answer": "Rotation"
+    },
+    {
+      "question": "What does GAN stand for?",
+      "options": [
+        "Generative Adversarial Network",
+        "Generalized AI Network",
+        "Graph Attention Network",
+        "Global Adaptive Network"
+      ],
+      "answer": "Generative Adversarial Network"
+    },
+    {
+      "question": "GAN consists of?",
+      "options": [
+        "Generator and Discriminator",
+        "Encoder and Decoder",
+        "Input and Output",
+        "Loss and Optimizer"
+      ],
+      "answer": "Generator and Discriminator"
+    },
+    {
+      "question": "The Generator's goal is to?",
+      "options": [
+        "Create realistic samples",
+        "Reject fake samples",
+        "Normalize data",
+        "Reduce dimensions"
+      ],
+      "answer": "Create realistic samples"
+    },
+    {
+      "question": "The Discriminator's role is to?",
+      "options": [
+        "Differentiate real and fake samples",
+        "Generate images",
+        "Train optimizers",
+        "Create labels"
+      ],
+      "answer": "Differentiate real and fake samples"
+    },
+    {
+      "question": "What are Autoencoders used for?",
+      "options": [
+        "Representation learning and compression",
+        "Classification only",
+        "Regression only",
+        "Clustering only"
+      ],
+      "answer": "Representation learning and compression"
+    },
+    {
+      "question": "An autoencoder consists of?",
+      "options": [
+        "Encoder and Decoder",
+        "Generator and Discriminator",
+        "Input and Output",
+        "CNN and RNN"
+      ],
+      "answer": "Encoder and Decoder"
+    },
+    {
+      "question": "What is latent space?",
+      "options": [
+        "Compressed representation of data",
+        "Training dataset",
+        "Feature map",
+        "Loss function"
+      ],
+      "answer": "Compressed representation of data"
+    },
+    {
+      "question": "What is a Variational Autoencoder?",
+      "options": [
+        "Probabilistic autoencoder",
+        "Decision tree model",
+        "Clustering model",
+        "Optimization algorithm"
+      ],
+      "answer": "Probabilistic autoencoder"
+    },
+    {
+      "question": "Diffusion models generate data by?",
+      "options": [
+        "Progressive denoising",
+        "Random clustering",
+        "Decision trees",
+        "Gradient boosting"
+      ],
+      "answer": "Progressive denoising"
+    },
+
+    {
+      "question": "What is model inference?",
+      "options": [
+        "Generating predictions from trained model",
+        "Training from scratch",
+        "Creating datasets",
+        "Optimizing features"
+      ],
+      "answer": "Generating predictions from trained model"
+    },
+    {
+      "question": "What is quantization?",
+      "options": [
+        "Reducing numerical precision",
+        "Increasing neurons",
+        "Adding layers",
+        "Generating embeddings"
+      ],
+      "answer": "Reducing numerical precision"
+    },
+    {
+      "question": "Why use quantization?",
+      "options": [
+        "Improve inference efficiency",
+        "Increase training data",
+        "Create labels",
+        "Reduce accuracy intentionally"
+      ],
+      "answer": "Improve inference efficiency"
+    },
+    {
+      "question": "What is pruning?",
+      "options": [
+        "Removing unnecessary model parameters",
+        "Adding neurons",
+        "Scaling data",
+        "Changing labels"
+      ],
+      "answer": "Removing unnecessary model parameters"
+    },
+    {
+      "question": "Model distillation creates?",
+      "options": [
+        "Smaller student model",
+        "Larger teacher model",
+        "Additional datasets",
+        "New features"
+      ],
+      "answer": "Smaller student model"
+    },
+    {
+      "question": "What is transfer learning's main benefit?",
+      "options": [
+        "Less training data and time",
+        "More parameters",
+        "More complexity",
+        "More hardware usage"
+      ],
+      "answer": "Less training data and time"
+    },
+    {
+      "question": "What is checkpointing?",
+      "options": [
+        "Saving model progress",
+        "Deleting weights",
+        "Stopping training",
+        "Cleaning data"
+      ],
+      "answer": "Saving model progress"
+    },
+    {
+      "question": "TensorFlow is?",
+      "options": [
+        "Deep learning framework",
+        "Database",
+        "Optimizer",
+        "Operating system"
+      ],
+      "answer": "Deep learning framework"
+    },
+    {
+      "question": "PyTorch is?",
+      "options": [
+        "Deep learning framework",
+        "Data warehouse",
+        "Feature engineering tool",
+        "Cloud platform"
+      ],
+      "answer": "Deep learning framework"
+    },
+    {
+      "question": "CUDA is mainly used for?",
+      "options": [
+        "GPU acceleration",
+        "Database indexing",
+        "Data labeling",
+        "Feature scaling"
+      ],
+      "answer": "GPU acceleration"
+    },
+
+    {
+      "question": "Why are GPUs preferred for deep learning?",
+      "options": [
+        "Parallel processing capability",
+        "More storage only",
+        "Lower accuracy",
+        "Smaller datasets"
+      ],
+      "answer": "Parallel processing capability"
+    },
+    {
+      "question": "What is mixed precision training?",
+      "options": [
+        "Using multiple numerical precisions",
+        "Using multiple datasets",
+        "Using multiple labels",
+        "Using multiple losses"
+      ],
+      "answer": "Using multiple numerical precisions"
+    },
+    {
+      "question": "What is catastrophic forgetting?",
+      "options": [
+        "Model forgetting previous knowledge during new training",
+        "Storage failure",
+        "Dataset corruption",
+        "Optimizer bug"
+      ],
+      "answer": "Model forgetting previous knowledge during new training"
+    },
+    {
+      "question": "What is multi-task learning?",
+      "options": [
+        "Training one model on multiple tasks",
+        "Using multiple datasets only",
+        "Using multiple GPUs only",
+        "Using multiple optimizers"
+      ],
+      "answer": "Training one model on multiple tasks"
+    },
+    {
+      "question": "What is few-shot learning?",
+      "options": [
+        "Learning from few examples",
+        "Learning from all data",
+        "Learning from unlabeled data",
+        "Learning from synthetic data only"
+      ],
+      "answer": "Learning from few examples"
+    },
+    {
+      "question": "What is zero-shot learning?",
+      "options": [
+        "Generalizing to unseen classes/tasks",
+        "Using no model",
+        "Using no data storage",
+        "Using zero layers"
+      ],
+      "answer": "Generalizing to unseen classes/tasks"
+    },
+    {
+      "question": "What is self-supervised learning?",
+      "options": [
+        "Learning from automatically generated labels",
+        "Learning without data",
+        "Learning with humans only",
+        "Learning through rewards only"
+      ],
+      "answer": "Learning from automatically generated labels"
+    },
+    {
+      "question": "What is curriculum learning?",
+      "options": [
+        "Training from easy tasks to difficult tasks",
+        "Training only difficult examples",
+        "Using multiple teachers",
+        "Using multiple losses"
+      ],
+      "answer": "Training from easy tasks to difficult tasks"
+    },
+    {
+      "question": "What is explainable AI?",
+      "options": [
+        "Understanding model decisions",
+        "Improving GPU speed",
+        "Reducing features",
+        "Generating labels"
+      ],
+      "answer": "Understanding model decisions"
+    },
+    {
+      "question": "What is the primary goal of deep learning systems?",
+      "options": [
+        "Learn meaningful representations and generalize well",
+        "Memorize all training data",
+        "Maximize model size",
+        "Reduce dataset size"
+      ],
+      "answer": "Learn meaningful representations and generalize well"
+    }
+  ]
+}
