@@ -67,6 +67,27 @@ page = st.sidebar.radio(
     ["Home", "Learn", "Quiz"]
 )
 
+# ------------------------------------------------------
+# Sidebar Profile Section
+# ------------------------------------------------------
+st.sidebar.markdown("---")
+
+st.sidebar.image(
+    "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+    width=80
+)
+
+st.sidebar.markdown("""
+## 👨‍💻 Virat Gupta
+**Techno-Functional Leader**
+
+### Connect 🌐 [Portfolio](https://guptavirat.github.io/viratrepo/)
+
+---
+
+*"Empowering learning through AI and innovation."*
+""")
+
 # HOME PAGE
 if page == "Home":
     st.title("🤖 AI Learning Hub")
