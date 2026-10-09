@@ -387,12 +387,17 @@ elif page == "Quiz":
             "quiz",
             []
         )
-        # Pick only 5 random questions if more than 5 exist
-        if len(questions) > 5:
-            questions = random.sample(
-                questions,
-                5
-            )
+        # Select random 5 questions only once per topic
+        quiz_session_key = f"{selected_topic}_random_questions"
+        if quiz_session_key not in st.session_state:
+            if len(questions) > 5:
+                st.session_state[quiz_session_key] = random.sample(
+                    questions,
+                    5
+                )
+            else:
+                st.session_state[quiz_session_key] = questions
+        questions = st.session_state[quiz_session_key]
 
         if not questions:
             st.warning(
@@ -504,22 +509,19 @@ elif page == "Quiz":
                     )
                 )
 
-                if percentage >= 80:
+                if percentage == 100:
                     st.balloons()
+                    st.success("Excellent! 🎉")
 
-                    st.success(
-                        "Excellent! 🎉"
-                    )
+                elif percentage >= 90:
+                    st.snow()
+                    st.success("Outstanding! ❄️")
 
-                elif percentage >= 50:
-                    st.info(
-                        "Good Job! 👍"
-                    )
+                elif percentage >= 60:
+                    st.info("Good Job! 👍")
 
                 else:
-                    st.warning(
-                        "Keep Practicing 📚"
-                    )
+                    st.warning("Keep Practicing 📚")
 
                 st.markdown(
                     "---"
