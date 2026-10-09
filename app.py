@@ -511,17 +511,20 @@ elif page == "Quiz":
 
                 if percentage == 100:
                     st.balloons()
-                    st.success("Excellent! 🎉")
+                    st.success("Excellent! You are a Champ. 🎉")
 
-                elif percentage >= 90:
+                elif percentage >= 80:
                     st.snow()
-                    st.success("Outstanding! ❄️")
+                    st.success("Outstanding! few steps behind to become Champ. ❄️")
 
                 elif percentage >= 60:
-                    st.info("Good Job! 👍")
+                    st.info("👍 Good Job! A little more practice and you'll master it.")
+
+                elif percentage == 0:
+                    st.warning("Still missign concepts, Learn and try again! 📚")
 
                 else:
-                    st.warning("Keep Practicing 📚")
+                    st.warning("📚 Review the concepts and give it another shot!")
 
                 st.markdown(
                     "---"
